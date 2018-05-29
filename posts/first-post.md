@@ -10,3 +10,5 @@ This is your first post. Now go and create an awesome blog!
 > - Check the `pages/post.js` file to modify the post entry page!
 
 Enjoy!
+
+Edited with Netlify!
