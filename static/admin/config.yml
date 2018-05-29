@@ -1,0 +1,14 @@
+backend:
+  name: github
+  repo: elmasse/nextein-netlify-test
+  # name: git-gateway
+  # branch: master # Branch to update (optional; defaults to master)
+
+publish_mode: editorial_workflow
+media_folder: "/static/images/"
+
+collections:
+  - name: "blog" # Used in routes, e.g., /admin/collections/blog
+    label: "Blog" # Used in the UI
+    folder: "/posts/" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
