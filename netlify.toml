@@ -1,0 +1,8 @@
+
+[Settings]
+  ID = "nextein-netlify-cms"
+
+[build]
+  publish = "out/"
+    command = "npm run export"
+
