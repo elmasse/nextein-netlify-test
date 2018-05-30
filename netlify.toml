@@ -4,5 +4,5 @@
 
 [build]
   publish = "out/"
-    command = "npm run export"
+  command = "npm run export"
 

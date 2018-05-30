@@ -1,6 +1,8 @@
 backend:
-  name: github
-  repo: elmasse/nextein-netlify-test
+  name: git-gateway
+  accept_roles: #optional - accepts all users if left out
+    - admin
+    - editor
   # name: git-gateway
   # branch: master # Branch to update (optional; defaults to master)
 
